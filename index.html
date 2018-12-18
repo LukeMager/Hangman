@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+</head>
+<body>
+<div id="title">Hangman</div>
+<div id="container">
+    <select id="selectCat">
+        <option value="0">--Select A Category--</option>
+        <option value="1">Social Media Platforms</option>
+        <option value="2">Baseball Greats</option>
+        <option value="3">U.S. Capitol Cities</option>
+        <option value="4">Pixar Movies</option>
+        <option value="5">Animals</option>
+    </select>
+    <button id="startGame" class="w3-button w3-round-xxlarge" onclick="startGame(), printWord()">Start</button>
+</div>
+<br>
+<div id="image"></div>
+<div id="startWord"></div>
+<br>
+<div id="buttonContainer"></div>
+<div id="guessedLetters"></div>
+<div id="guessesRemaining"></div>
+<div id="winLose"></div>
+<div id="playAgain"></div>
+<div id="newCategory"></div>
+</body>
+</html>

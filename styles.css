@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+#title{
+    position: relative;
+    text-align: center;
+    font-family: "Bell MT";
+    font-size: 70px;
+    text-shadow: 2px 2px gray;
+    color: gold;
+}
+
+#selectCat{
+    font-family: "Bell MT";
+    background-color: gray;
+    color: gold;
+}
+
+#startGame{
+    font-family: "Bell MT";
+    background-color: gray;
+    color: gold;
+}
+
+#container{
+    position: relative;
+    text-align: center;
+}
+
+#startWord{
+    color: darkorchid;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+
+#buttonContainer{
+    position: relative;
+    text-align: center;
+}
+
+.allButtons{
+    background-color: darkorchid;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+
+#clicked{
+    background-color: black;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+
+#guessedLetters{
+    font-family: "Bell MT";
+    text-shadow: 1px 1px gray;
+    font-size: 30px;
+    color: gold;
+    position: relative;
+    text-align: center;
+}
+
+#guessesRemaining{
+    font-family: "Bell MT";
+    text-shadow: 1px 1px gray;
+    font-size: 30px;
+    color: gold;
+    position: relative;
+    text-align: center;
+}
+
+#winLose{
+    font-family: "Bell MT";
+    text-shadow: 1px 1px gray;
+    font-size: 30px;
+    color: darkorchid;
+    position: relative;
+    text-align: center;
+}
+
+#playAgain{
+    position: relative;
+    text-align: center;
+}
+
+#newCategory{
+    position: relative;
+    text-align: center;
+}
+
+#image{
+    position: relative;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+}
